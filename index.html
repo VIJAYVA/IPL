@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPLTEAMBASE</title>
+    <style>
+        body{
+            background-color:whitesmoke ;
+        }
+        .container{
+            font-family:Roboto,sans-serif;
+            background-color: rgb(255, 255, 255);
+            width: 300px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: -1px 13px 89px 2px rgba(0,0,0,0.49);
+-webkit-box-shadow: -1px 13px 89px 2px rgba(0,0,0,0.49);
+-moz-box-shadow: -1px 13px 89px 2px rgba(0,0,0,0.49);
+            
+            
+        }
+        .img{
+            background-color: #ffffff;
+            width: 300px;
+            height: 175px;
+            object-fit:contain;
+        }
+        .content{
+            padding: 10px;
+            overflow: hidden;
+        }
+        .CSK,.MI,.RCB,.SH,.KKR,.LSG,.GT,.RR,.PBKS,.DC{
+            text-align: center;
+            color: #090909;
+            margin-top: 10px;
+        }
+        span{
+            font-weight: bold;
+            font-size: medium;
+            color: rgb(6, 6, 6);
+            text-align: left;
+        }
+        .team{
+            display: grid;
+            grid-template-columns: 1fr ;
+            gap: 15px;
+            row-gap: 30px;
+            justify-items: center;
+
+        }
+        .va{
+            border: 2px solid black;
+            text-align: center;
+          
+        }
+        @media (min-width:650px){
+            .team{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media (min-width:1024px){
+            .team{
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="team">
+    <div class="container">
+   <img src="https://lh3.googleusercontent.com/7oK0Ufjxh8REjOCYwOQjcpYyaeMdTknUgx7Lp8ssQIg1kl3ZyBIQe8euHfBWJ8zK_fc1SbN8W1710q4UhETYY7SZ" alt="CSK" class="img">
+   <div class="content">
+    <h2 class="CSK">CHENNAI SUPER KING</h2>
+    <p><span>Captain:</span>MS.Dhoni</p>
+    <p><span>Owner:</span>Chennai Super Kings Cricket Ltd</p>
+    <p><span>Owners:</span> India Cements</p>
+    <p><span>Coach:</span>Stephen Fleming</p>
+    <p><span>Manager:</span>Russell Radhakrishnan</p>
+    <p> <span>League:</span>Indian Premier League</p>
+   
+    <div class=va>
+        <a  href="https://en.wikipedia.org/wiki/Chennai_Super_Kings" >Visit CSK.com!</a>
+    </div>
+  
+   </div>
+    </div>
+   <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Mumbai_Indians_Logo.svg/1200px-Mumbai_Indians_Logo.svg.png" alt="MI" class="img">
+    <div class="content">
+     <h2 class="MI">MUMBAI INDIANS</h2>
+     <p><span>Captain:</span> Rohit Sharma</p>
+     <p><span>Owner:</span>Reliance Industries Limited</p>
+     <p><span>Owners:</span>  Nita Ambani</p>
+     <p><span>Coach:</span> Mahela Jayawardene</p>
+     <p><span>Manager:</span>Rahul Sanghvi</p>
+     <p> <span>League:</span>Indian Premier League</p>
+     <div class=va>
+        <a  href="https://en.wikipedia.org/wiki/Mumbai_Indians" >Visit MI.com!</a>
+     </div>
+    </div>
+    </div>
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Royal_Challengers_Bangalore_2020.svg/1200px-Royal_Challengers_Bangalore_2020.svg.png" alt="RCB" class="img">
+        <div class="content">
+         <h2 class="RCB">ROYAL CHALLENGERS</h2>
+         <p><span>Captain:</span> Faf du Plessis</p>
+         <p><span>Owner:</span>United Spirits</p>
+         <p><span>Owners:</span> United Spirits</p>
+         <p><span>Coach:</span> Adam Griffith</p>
+         <p><span>Manager:</span>Soumyadeep Pyne</p>
+         <p> <span>League:</span>Indian Premier League</p>
+         <div class=va>
+            <a  href="https://en.wikipedia.org/wiki/Royal_Challengers_Bangalore" >Visit RCB.com!</a>
+         </div>
+        </div>
+        </div>
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Kolkata_Knight_Riders_Logo.svg" alt="KKR" class="img">
+            <div class="content">
+             <h2 class="KKR">KNIGHT RIDERS</h2>
+             <p></p><span>Captain:</span>Shreyas Iyer, Eoin Morgan</p>
+             <p><span>Owner:</span>Shah Rukh Khan</p>
+             <p><span>Owners:</span> Red Chillies Entertainment</p>
+             <p><span>Coach:</span>Brendon McCullum</p>
+             <p><span>Manager:</span>Wayne Bentley</p>
+             <p> <span>League:</span>Indian Premier League</p>
+             <div class=va>
+                <a  href="https://en.wikipedia.org/wiki/Kolkata_Knight_Riders" >Visit KKR.com!</a>
+             </div>
+            </div>
+            </div>
+
+           
+            <div class="container">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c3773cb-5629-4145-b044-4ef6f9090376/dezxkoe-d3aa8351-8fbd-4731-92d0-f83ecedbdb79.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljMzc3M2NiLTU2MjktNDE0NS1iMDQ0LTRlZjZmOTA5MDM3NlwvZGV6eGtvZS1kM2FhODM1MS04ZmJkLTQ3MzEtOTJkMC1mODNlY2VkYmRiNzkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1QZZeHmVgIf6RrE9hl1WdvQb-tm4OCopqnvoMq3aajo" alt="DC" class="img">
+                <div class="content">
+                 <h2 class="DC">DELHI CAPITALS</h2>
+                 <p></p><span>Captain:</span>Rishabh Pant</p>
+                 <p><span>Owner:</span>JSW Group</p>
+                 <p><span>Owners:</span> GMR Group</p>
+                 <p><span>Coach:</span>Ricky Ponting </p>
+                 <p><span>Manager:</span>Siddharth Bhasin</p>
+                 <p> <span>League:</span>Indian Premier League</p>
+                 <div class=va>
+                    <a  href="https://en.wikipedia.org/wiki/Delhi_Capitals" >Visit DC.com!</a>
+                 </div>
+                </div>
+                </div>
+                <div class="container">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/81/Sunrisers_Hyderabad.svg/1200px-Sunrisers_Hyderabad.svg.png" alt="SH" class="img">
+                    <div class="content">
+                     <h2 class="SH">SUNRISERS </h2>
+                     <p></p><span>Captain:</span>Kane Williamson</p>
+                     <p><span>Owner:</span>Kalanithi Maran, Sun TV Network</p>
+                     <p><span>Owners:</span> Kalanithi Maran, Sun TV Network</p>
+                     <p><span>Coach:</span>Tom Moody</p>
+                     <p><span>Manager:</span>Srinath Bhashyam</p>
+                     <p> <span>League:</span>Indian Premier League</p>
+                     <div class=va>
+                        <a  href="https://en.wikipedia.org/wiki/Sunrisers_Hyderabad" >Visit SH.com!</a>
+                     </div>
+                    </div>
+                    </div>
+                    <div class="container">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5tlhW1338PhF3KcaRkYcmZRZc72MAXnqKLiGmW6cJG9N4WfWwFrTdrY128m9mJVS7m5E&usqp=CAU" alt="PBKS" class="img">
+                        <div class="content">
+                         <h2 class="PBKS">PUNJAB KINGS</h2>
+                         <p></p><span>Captain:</span>Mayank Agarwal </p>
+                         <p><span>Owner:</span> Preity Zinta</p>
+                         <p><span>Owners:</span> Mohit Burman</p>
+                         <p><span>Coach:</span>Anil Kumble </p>
+                         <p><span>Manager:</span>Avinash Vaidya</p>
+                         <p> <span>League:</span>Indian Premier League</p>
+                         <div class=va>
+                            <a  href="https://en.wikipedia.org/wiki/Punjab_Kings" >Visit PBKS.com!</a>
+                         </div>
+                        </div>
+                        </div>
+                        <div class="container">
+                            <img src="https://logowik.com/content/uploads/images/gujarat-titans6813.jpg" alt="GT" class="img">
+                            <div class="content">
+                             <h2 class="GT">GUJARAT TITANS</h2>
+                             <p></p><span>Captain:</span>Hardik Pandya</p>
+                           <p><span>Owner:</span>Donald Mackenzie</p>
+                             <p><span>Owners:</span> Steve Koltes</p>
+                             <p><span>Coach:</span>Ashish Nehra</p>
+                             <p><span>Manager:</span>Vikram Solanki</p>
+                             <p> <span>League:</span>Indian Premier League</p>
+                             <div class=va>
+                                <a  href="https://en.wikipedia.org/wiki/Gujarat_Titans" >Visit GT.com!</a>
+                             </div>
+                            </div>
+                            </div>
+                            <div class="container">
+                                <img src="https://imgk.timesnownews.com/media/Lucknow_Super_Giants_logo_1.png" alt="LSG" class="img">
+                                <div class="content">
+                                 <h2 class="LSG">LUCKNOW SUPER GIANTS</h2>
+                                 <p></p><span>Captain:</span> KL Rahul</p>
+                                 <p><span>Owner:</span>	Sanjiv Goenka</p>
+                                 <p><span>Owners:</span>Sanjiv Goenka</p>
+                                 <p><span>Coach:</span>Andy Flower</p>
+                                 <p><span>Manager:</span>Vacant</p>
+                                 <p> <span>League:</span>Indian Premier League</p>
+                                 <div class=va>
+                                    <a  href="https://en.wikipedia.org/wiki/Lucknow_Super_Giants" >Visit LSG.com!</a>
+                                 </div>
+                                </div>
+                                </div>
+                                <div class="container">
+                                    <img src="https://english.sakshi.com/visual-stories/sports/2022-03-26/rrlogo_1648272104.png" alt="RR" class="img">
+                                    <div class="content">
+                                     <h2 class="RR">RAJASTHAN ROYALS</h2>
+                                     <p></p><span>Captain:</span>Sanju Samson</p>
+                                     <p><span>Owner:</span>Manoj Badale</p>
+                                     <p><span>Owners:</span>Lachlan Murdoch</p>
+                                     <p><span>Coach:</span>Shane Warne</p>
+                                     <p><span>Manager:</span>	Romi Bhinder</p>
+                                     <p> <span>League:</span>Indian Premier League</p>
+                                     <div class=va>
+                                        <a  href="https://en.wikipedia.org/wiki/Rajasthan_Royals" >Visit RR.com!</a>
+                                     </div>
+                                    </div>
+                                    </div>
+                                    
+</section>
+</body>
+</html>
